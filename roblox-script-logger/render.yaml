@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: roblox-script-logger
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3000
+        
